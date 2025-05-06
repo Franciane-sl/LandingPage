@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio Minimalista</title>
+  <link rel="stylesheet" href="Style.css" />
+</head>
+<body>
+
+  <!-- Cabeçalho fixo com logotipo e menu -->
+  <header>
+    <div class="conteiner">
+      <h1 class="logotipo">MeuPortfólio</h1>
+      <nav>
+        <ul class="menu-navegacao">
+          <li><a href="#secao-inicio">Início</a></li>
+          <li><a href="#secao-sobre">Sobre</a></li>
+          <li><a href="#secao-projetos">Projetos</a></li>
+          <li><a href="#secao-contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Seção Início (Hero Section) -->
+  <section id="secao-inicio" class="secao-inicio">
+    <div class="conteiner">
+      <h2>Olá, eu sou Desenvolvedor(a) Web</h2>
+      <p>Crio sites bonitos, leves e funcionais com HTML, CSS e JavaScript.</p>
+      <a href="#secao-contato" class="botao">Fale comigo</a>
+    </div>
+  </section>
+
+  <!-- Seção Sobre -->
+  <section id="secao-sobre" class="secao-sobre">
+    <div class="conteiner">
+      <h3>Sobre mim</h3>
+      <p>Sou apaixonado(a) por tecnologia e crio soluções digitais com foco em simplicidade, performance e acessibilidade.</p>
+    </div>
+  </section>
+
+ <!-- Seção Meus Projetos -->
+<section id="secao-projetos" class="secao-projetos">
+    <div class="conteiner">
+      <h3>Meus projetos</h3>
+      <p>Confira alguns dos meus projetos recentes de desenvolvimento web.</p>
+  
+      <div class="galeria-projetos">
+  
+        <!-- Projeto 1 -->
+        <div class="card-projeto">
+          <img src="https://picsum.photos/300/200?random=1" alt="Projeto 1">
+          <h4>Landing Page Criativa</h4>
+          <p>Site para apresentar uma marca pessoal com estilo moderno.</p>
+        </div>
+  
+        <!-- Projeto 2 -->
+        <div class="card-projeto">
+          <img src="https://picsum.photos/300/200?random=2" alt="Projeto 2">
+          <h4>Portfólio Responsivo</h4>
+          <p>Portfólio profissional feito com HTML, CSS e JavaScript.</p>
+        </div>
+  
+        <!-- Projeto 3 -->
+        <div class="card-projeto">
+          <img src="https://picsum.photos/300/200?random=3" alt="Projeto 3">
+          <h4>Loja Virtual Simples</h4>
+          <p>Layout de e-commerce com carrinho e seções de produtos.</p>
+        </div>
+  
+      </div>
+    </div>
+  </section>  
+  
+  <!-- Seção Contato com formulário e redes sociais -->
+<section id="secao-contato" class="secao-contato">
+    <div class="conteiner">
+      <h3>Entre em contato</h3>
+  
+      <!-- Formulário de contato -->
+      <form class="formulario-contato" action="#" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+  
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+  
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+  
+        <button type="submit" class="botao">Enviar</button>
+      </form>
+  
+      <!-- Redes sociais -->
+      <div class="redes-sociais">
+        <p>Siga-me nas redes sociais:</p>
+        <ul>
+          <li><a href="#" target="_blank">Instagram</a></li>
+          <li><a href="#" target="_blank">LinkedIn</a></li>
+          <li><a href="#" target="_blank">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Rodapé -->
+  <footer>
+    <div class="conteiner">
+      <p>&copy; 2025 MeuPortfólio. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
